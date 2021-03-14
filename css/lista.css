@@ -1,0 +1,63 @@
+:root {
+    --bg-color: #D3D3D3;
+    --hover-bg-color: #2ECC40;
+    --hover-text-color: white;
+}
+
+.container-fluid {
+    margin: 40px 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.cards .card {
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.cards .card .card-body {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.cards .card .card-body a {
+    text-decoration: none;
+}
+
+.cards .card .card-body .card-item {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    border-top: 1px solid var(--hover-bg-color);
+}
+
+.cards .card .card-body .card-item:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--hover-text-color);
+    font-weight: bold;
+}
+
+.cards .card .card-body .card-item .item-name {
+    font-weight: bold;
+}
+
+.cards .card .card-body .card-item .item-status {
+    font-weight: normal !important;
+}
+
+.cards .card .card-body .card-item .item-completo {
+    color: green;
+}
+
+.cards .card .card-body .card-item .item-incompleto {
+    color: red;
+}

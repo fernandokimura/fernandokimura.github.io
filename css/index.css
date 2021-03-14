@@ -1,0 +1,61 @@
+:root {
+    --bg-color: #D3D3D3;
+    --hover-bg-color: #2ECC40;
+    --hover-text-color: white;
+}
+
+.imagem-capa {
+    object-fit: cover;
+    height: 600px;
+}
+
+.container-fluid {
+    margin: 40px 0;
+}
+
+.box {
+    margin-top: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.cards .card {
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    border-left: 1px solid var(--hover-bg-color);
+    border-right: 1px solid var(--hover-bg-color);
+    border-bottom: 1px solid var(--hover-bg-color);
+}
+
+.cards .card .card-body {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.cards .card .card-body a {
+    text-decoration: none;
+}
+
+.cards .card .card-body .card-item {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: var(--hover-bg-color);
+    color: darkgreen;
+    border-top: 1px solid var(--hover-bg-color);
+    height: 100%;
+}
+
+.cards .card .card-body .card-item:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--hover-text-color);
+    font-weight: bold;
+}

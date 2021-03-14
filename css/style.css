@@ -1,0 +1,24 @@
+.cor-especial{
+    color: black;
+}
+
+.borda-cor-especial {
+    border-color: orangered
+}
+
+
+.card-largura{
+  max-width: 18rem;
+}
+
+.imagem-cabecalho{
+  object-fit:cover;
+  object-position:0  80%;
+  height:600px;
+}
+
+.imagem-capa {
+  object-fit:cover;
+  height:600px;
+}
+
